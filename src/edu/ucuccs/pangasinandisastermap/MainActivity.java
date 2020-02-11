@@ -44,7 +44,7 @@ btnsos=(Button)findViewById(R.id.button4);
 			ContextMenuInfo menuInfo) {
 		super.onCreateContextMenu(menu, v, menuInfo);
 		menu.setHeaderTitle("Disaster Response Force");
-		menu.add(0, v.getId(), 0, "PNP");
+		menu.add(0, v.getId(), 0, "HOSPITAL");
 		menu.add(0, v.getId(), 0, "BFP");
 		menu.add(0, v.getId(), 0, "Red Cross");
 		
